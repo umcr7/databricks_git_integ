@@ -17,11 +17,7 @@ data.write.saveAsTable("team_data")
 
 # COMMAND ----------
 
-# MAGIC %sql
-# MAGIC SELECT
-# MAGIC   *
-# MAGIC FROM 
-# MAGIC   team_data
+spark.table("team_data")
 
 # COMMAND ----------
 
