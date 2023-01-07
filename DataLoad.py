@@ -25,4 +25,6 @@ data.write.saveAsTable("team_data")
 
 # COMMAND ----------
 
+spark.table("team_data").display()
+
 
